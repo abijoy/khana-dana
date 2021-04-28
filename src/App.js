@@ -1,6 +1,8 @@
 
 import React from 'react'
 import logo from './logo-web-color.png'
+import asd from './asd-4.jpg'
+import Home from './components/Home'
 import Products from './components/Products'
 import Location from './components/Location'
 import LocationEmbed from './components/LocationEmbed'
@@ -19,7 +21,7 @@ function App() {
   }
   return (
     <Router>
-      <div className='wrapper'>
+      <div className='holder'>
         <nav className={`navbar navbar-expand-lg navbar-light bg-light`}>
           <a className="navbar-brand" href="#">
               <img src={logo} style={imgStyle}/>
@@ -44,9 +46,10 @@ function App() {
           </ul>
             </div>
         </nav>
+        </div>
         <Switch>
           <Route path="/home">
-            <h3>HOME of Khanas</h3>
+            <Home />
           </Route>
 
           <Route path="/products">
@@ -61,7 +64,6 @@ function App() {
             <h3>About Khanas</h3>
           </Route>
         </Switch>
-      </div>
     </Router>
   )
 }

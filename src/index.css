@@ -31,4 +31,23 @@ code {
   position:absolute;
   }
 
+  div .wrapper {
+    background-image: url('./asd-4.jpg');
+    /* object-fit: cover; */
+    background-size: cover;
+    background-position-y: bottom;
+  }
 
+  .about-details {
+    font-weight: bold;
+    line-height: 33px;
+    color: #002e5b;
+
+  }
+  .card-info {
+    background-color: hsl(345deg 69% 35%);
+  }
+
+  div .card-body {
+    white-space: pre-wrap;
+  }
