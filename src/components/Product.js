@@ -1,7 +1,7 @@
 
 export default function Product({ prodName, imgSrc, text}) {
     return (
-        <div className={`col-md-4`}>
+        <div className={`col-sm`}>
             <div className={`card p-2`} style={{width: 300 }}>
                 <img className={`card-img-top img-fluid`} src={imgSrc}/>
                 <div className='card-body'>

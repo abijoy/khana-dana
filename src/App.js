@@ -7,6 +7,7 @@ import Products from './components/Products'
 import Location from './components/Location'
 import LocationEmbed from './components/LocationEmbed'
 import Footer from './components/Footer'
+import About from './components/About'
 import {
   BrowserRouter as Router,
   Switch,
@@ -23,11 +24,11 @@ function App() {
   }
   return (
     <Router>
-      <div className='holder'>
+      <div className='holder mx-auto'>
         <nav className={`navbar navbar-expand-lg navbar-light bg-light`}>
-          <a className="navbar-brand" href="/">
+          <Link className="navbar-brand" to="/">
               <img src={logo} style={imgStyle}/>
-          </a>
+          </Link>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
@@ -64,7 +65,7 @@ function App() {
           </Route>
 
           <Route path="/about">
-            <h3>About Khanas</h3>
+            <About />
           </Route>
         </Switch>
     </Router>

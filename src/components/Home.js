@@ -11,7 +11,7 @@ const text3 = `Parties, Meetings, or that special get\ntogether – Khana’s fo
 export default function(props) {
     return (
         <div>
-            <div className='home ml-5 mr-5'>
+            <div className='home mx-auto'>
                 <div className='wrapper font-weight-bold'>
                     <br />
                     <h1 className='ml-3 font-weight-bold'>

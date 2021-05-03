@@ -10,26 +10,13 @@ export default function Products() {
     const steakText = "We have the delicous steaks in town different vairities of steaks lorem ipsum dolor sit amot.."
     return (
         <>
-        <div className='row'>
-            <div className={`col-md-8 offset-md-2`}>
-                <h2>Products/Menus</h2>
-                <hr />
-                <p>
-                Khana’s predominantly sells Sub-Sandwiches, various
-                types of chicken, Potato Wedges, and their famous cold
-                coffee. Since Khana’s started its journey, it has
-                streamlined the menu which in Dhaka contained nearly
-                20 items. The company has also looked to introduce
-                healthier options and removed excessive unhealthy
-                things. The company has also removed artificial
-                preservatives from Chicken items.<br/>
-                </p>
-                <div className='row'>
-                    <Product prodName='Burgers' imgSrc={Burgers} text={burgText} />
-                    <Product prodName='Pizza' imgSrc={Pizza} text={pizzaText} />
-                    <Product prodName='Steak' imgSrc={Steak} text={steakText} />
-                </div>
-                
+        <div className='container'>
+            <h2>Products/Menus</h2>
+            <hr />
+            <div className='row'>
+                <Product prodName='Burgers' imgSrc={Burgers} text={burgText} />
+                <Product prodName='Pizza' imgSrc={Pizza} text={pizzaText} />
+                <Product prodName='Steak' imgSrc={Steak} text={steakText} />
             </div>
         </div>
         <Footer />
