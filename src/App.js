@@ -6,10 +6,12 @@ import Home from './components/Home'
 import Products from './components/Products'
 import Location from './components/Location'
 import LocationEmbed from './components/LocationEmbed'
+import Footer from './components/Footer'
 import {
   BrowserRouter as Router,
   Switch,
   Route,
+  Redirect,
   Link
 } from "react-router-dom";
 
@@ -23,7 +25,7 @@ function App() {
     <Router>
       <div className='holder'>
         <nav className={`navbar navbar-expand-lg navbar-light bg-light`}>
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
               <img src={logo} style={imgStyle}/>
           </a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,8 +48,9 @@ function App() {
           </ul>
             </div>
         </nav>
-        </div>
+      </div>
         <Switch>
+          <Redirect exact from="/" to="/home" />
           <Route path="/home">
             <Home />
           </Route>
