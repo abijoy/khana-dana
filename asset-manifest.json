@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/khana-dana/static/css/main.fb1c87b0.chunk.css",
+    "main.js": "/khana-dana/static/js/main.78306fa2.chunk.js",
+    "main.js.map": "/khana-dana/static/js/main.78306fa2.chunk.js.map",
+    "runtime-main.js": "/khana-dana/static/js/runtime-main.57a06246.js",
+    "runtime-main.js.map": "/khana-dana/static/js/runtime-main.57a06246.js.map",
+    "static/js/2.be355452.chunk.js": "/khana-dana/static/js/2.be355452.chunk.js",
+    "static/js/2.be355452.chunk.js.map": "/khana-dana/static/js/2.be355452.chunk.js.map",
+    "static/js/3.ea470c68.chunk.js": "/khana-dana/static/js/3.ea470c68.chunk.js",
+    "static/js/3.ea470c68.chunk.js.map": "/khana-dana/static/js/3.ea470c68.chunk.js.map",
+    "index.html": "/khana-dana/index.html",
+    "static/css/main.fb1c87b0.chunk.css.map": "/khana-dana/static/css/main.fb1c87b0.chunk.css.map",
+    "static/js/2.be355452.chunk.js.LICENSE.txt": "/khana-dana/static/js/2.be355452.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/khana-dana/static/media/footer-bg-1.1bea4aea.jpg",
+    "static/media/burgers.e020b7af.webp": "/khana-dana/static/media/burgers.e020b7af.webp",
+    "static/media/logo-web-color.4ae46528.png": "/khana-dana/static/media/logo-web-color.4ae46528.png",
+    "static/media/logo-white.e54cf186.png": "/khana-dana/static/media/logo-white.e54cf186.png",
+    "static/media/pizza.4290113f.jpg": "/khana-dana/static/media/pizza.4290113f.jpg",
+    "static/media/slider-1.a973a706.png": "/khana-dana/static/media/slider-1.a973a706.png",
+    "static/media/slider-2.90cedcc5.png": "/khana-dana/static/media/slider-2.90cedcc5.png",
+    "static/media/slider-3.b291d608.png": "/khana-dana/static/media/slider-3.b291d608.png",
+    "static/media/steak.c532b6d3.jpg": "/khana-dana/static/media/steak.c532b6d3.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.57a06246.js",
+    "static/js/2.be355452.chunk.js",
+    "static/css/main.fb1c87b0.chunk.css",
+    "static/js/main.78306fa2.chunk.js"
+  ]
+}
