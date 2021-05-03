@@ -50,7 +50,7 @@ function App() {
         </nav>
       </div>
         <Switch>
-          <Redirect exact from='/' to={process.env.PUBLIC_URL + '/home/'}/>
+          <Redirect exact from='/' to={'/home'}/>
           <Route path='/home/'>
             <Home />
           </Route>
