@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 import Footerbg from './footer-bg-1.jpg';
 import LogoWhite from './logo-white.png'
 import FB from './facebook.png'
@@ -17,19 +18,19 @@ export default function Footer(props) {
                         <h3 className='h3'>Useful Links</h3>
                         <hr />
                         <ul>
-                            <li><a href="/home" className="text-white">Home</a></li>
-                            <li><a href="/products" className="text-white">Products</a></li>
-                            <li><a href="/locations" className="text-white">Locations</a></li>
-                            <li><a href="/About" className="text-white">About</a></li>
+                            <li><Link to="home" className="text-white">Home</Link></li>
+                            <li><Link to="products" className="text-white">Products</Link></li>
+                            <li><Link to="locations" className="text-white">Locations</Link></li>
+                            <li><Link to="About" className="text-white">About</Link></li>
                         </ul>
                     </div>
                     <div className='col-sm text-white'>
                         <h3 className='h3 mb-3 px-4'>Get in Touch</h3>
                         <ul>
-                            <li className="social"><a href="#"><img src={FB} alt=""/></a></li>
-                            <li className="social"><a href="#"><img src={IG} alt=""/></a></li>
-                            <li className="social"><a href="#"><img src={YT} alt=""/></a></li>
-                            <li className="social"><a href="#"><img src={YELP} alt=""/></a></li>
+                            <li className="social"><Link to="#"><img src={FB} alt=""/></Link></li>
+                            <li className="social"><Link to="#"><img src={IG} alt=""/></Link></li>
+                            <li className="social"><Link to="#"><img src={YT} alt=""/></Link></li>
+                            <li className="social"><Link to="#"><img src={YELP} alt=""/></Link></li>
                         </ul>
                     </div>
                 </div>
