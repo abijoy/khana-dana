@@ -51,8 +51,8 @@ function App() {
         <Home />
       </div>
         <Switch>
-          <Redirect exact from="/" to="/home" />
-          <Route path="/home">
+          <Redirect exact from={process.env.PUBLIC_URL + '/'} to={process.env.PUBLIC_URL + '/home/'}/>
+          <Route path={process.env.PUBLIC_URL + '/home/'}>
             <Home />
           </Route>
 
