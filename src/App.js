@@ -48,6 +48,7 @@ function App() {
           </ul>
             </div>
         </nav>
+        <Home />
       </div>
         <Switch>
           <Redirect exact from="/" to="/home" />

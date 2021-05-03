@@ -58,8 +58,8 @@ code {
   }
 
   .lol{
-    border-left: solid 2px;
-    border-right: solid 2px;
+    border-left: solid 1px;
+    border-right: solid 1px;
     border-color: white;
     font-weight: 500;
   }
